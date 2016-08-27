@@ -1,0 +1,117 @@
+%0 Journal Article
+%T Alternative forms of the higher-order Boussinesq equations: Derivations and validations
+%A Zou, Z. L.
+%A Fang, K. Z.
+%J Coastal Engineering
+%V 55
+%N 6
+%P 506-521
+%D 2008
+%K Boussinesq equations;wave propagation;nonlinear waves
+%X An alternative form of the Boussinesq equations is developed, creating a model which is fully nonlinear up to O ( μ 4 ) ( μ  is the ratio of water depth to wavelength) and has dispersion accurate to the Padé [4,4] approximation. No limitation is imposed on the bottom slope; the variable distance between free surface and sea bottom is accounted for by a σ -transformation. Two reduced forms of the model are also presented, which simplify O ( μ 4 ) terms using the assumption ε  =  O ( μ 2/3 ) ( ε  is the ratio of wave height to water depth). These can be seen as extensions of Serre's equations, with dispersions given by the Padé [2,2] and Padé [4,4] approximations. The third-order nonlinear characteristics of these three models are discussed using Fourier analysis, and compared to other high-order formulations of the Boussinesq equations. The models are validated against experimental measurements of wave propagation over a submerged breakwater. Finally, the nonlinear evolution of wave groups along a horizontal flume is simulated and compared to experimental data in order to investigate the effects of the amplitude dispersion and the four-wave resonant interaction.
+
+
+%0 Journal Article
+%T Higher-order Boussinesq-type equations for surface gravity waves: derivation and analysis
+%A Madsen, P. A.
+%A Schäffer, H. A.
+%J Philosophical Transactions of the Royal Society A Mathematical Physical & Engineering Sciences
+%V 356
+%N 1749
+%P 3123-3181
+%D 1998
+%K Boussinesq equations;surface gravity waves;nonlinear random waves;wave-current interactions;triad interactions;nonlinear dispersive waves
+%X Not Available
+
+
+%0 Journal Article
+%T A 2D shallow flow model for practical dam-break simulation
+%A Wang, Yueling
+%A Liang, Quihua
+%A Kesserwani, Georges
+%A Hall, Jim W.
+%J Journal of Hydraulic Research
+%V 50
+%N 5
+%P 544-545
+%D 2012
+%K Dam break;friction term;Godunov-type method;shallow-water equation;well-balanced scheme
+%X Dam-break flows usually occur in domains with complex geometric and topographic features and involve abrupt flow patterns. A dam-break model must therefore be able to effectively handle different flow types including transcritical flows or hydraulic jumps, deal with complex domain topography, capture repeating wet-dry interface and represent high roughness values in the floodplain. Herein, all of these objectives are achieved by extending a recent one-dimensional finite volume Godunov-type model into two dimensions for solving the shallow-water equations. While doing so, a much simplified condition to maintain well-balanced solutions around a wet-dry front is proposed and a two-dimensional friction source term discretization is derived under a suitable stability condition in relation to practical simulations. The two-dimensional model is successfully validated against three analytical benchmark tests and then assessed for predicting realistic dam-break flood events.
+
+
+%0 Journal Article
+%T An efficient shock capturing algorithm to the extended Boussinesq wave equations
+%A Fang, Kezhao
+%A Zou, Zhili
+%A Dong, Ping
+%A Liu, Zhongbo
+%A Gui, Qinqin
+%A Yin, Jiwei
+%J Applied Ocean Research
+%V 43
+%N 5
+%P 11-20
+%D 2013
+%K Boussinesq equations;Hybrid model;MUSTA scheme;Wave propagation;Wave breaking
+%X A hybrid finite-volume and finite-difference method is proposed for numerically solving the two-dimensional (2D) extended Boussinesq equations. The governing equations are written in such a way that the convective flux is approximated using finite volume (FV) method while the remaining terms are discretized using finite difference (FD) method. Multi-stage (MUSTA) scheme, instead of commonly used HLL or Roe schemes, is adopted to evaluate the convective flux as it has the simplicity of centred scheme and accuracy of upwind scheme. The third order Runge鈥揔utta method is used for time marching. Wave breaking and wet鈥揹ry interface are also treated in the model. In addition to model validation, the emphasis is given to compare the merits and limitations of using MUSTA scheme and HLL scheme in the model. The analytical and experimental data available in the literature have been used for the assessment. Numerical tests demonstrate that the developed model has the advantages of stability preserving, shock-capturing and numerical efficiency when applied in the complex nearshore region. Compared with that using HLL scheme, the proposed model has comparable numerical accuracy, but requires slightly less computation time and is much simpler to code.
+
+
+%0 Journal Article
+%T A high-order adaptive time-stepping TVD solver for Boussinesq modeling of breaking waves and coastal inundation
+%A Shi, Fengyan
+%A Kirby, James T.
+%A Harris, Jeffrey C.
+%A Geiman, Joseph D.
+%A Grilli, Stephan T.
+%J Ocean Modelling
+%V s 43–44
+%N 2
+%P 36-51
+%D 2012
+%K Boussinesq wave model;TVD Riemann solver;Breaking wave;Coastal inundation
+%X We present a high-order adaptive time-stepping TVD solver for the fully nonlinear Boussinesq model of Chen (2006) , extended to include moving reference level as in Kennedy et al. (2001) . The equations are reorganized in order to facilitate high-order Runge–Kutta time-stepping and a TVD type scheme with a Riemann solver. Wave breaking is modeled by locally switching to the nonlinear shallow water equations when the Froude number exceeds a certain threshold. The moving shoreline boundary condition is implemented using the wetting–drying algorithm with the adjusted wave speed of the Riemann solver. The code is parallelized using the Message Passing Interface (MPI) with non-blocking communication. Model validations show good performance in modeling wave shoaling, breaking, wave runup and wave-averaged nearshore circulation.
+
+
+%0 Journal Article
+%T Finite volume scheme for the solution of 2D extended Boussinesq equations in the surf zone
+%A Tonelli, Mara
+%A Petti, Marco
+%J Ocean Engineering
+%V 37
+%N 7
+%P 567-582
+%D 2010
+%K Breaking waves;Boussinesq equations;NSWE;Finite volume
+%X In this paper, a hybrid finite volume-finite difference scheme is applied to study surf zone dynamics. The numerical model solves the 2DH extended Boussinesq equations proposed by Madsen and S酶rensen (1992)  where nonlinear and dispersive effects are both relevant whereas it solves NSWE equations where nonlinearity prevails. The shock-capturing features of the finite volume method allow an intrinsic representation of wave breaking and runup; therefore no empirical (calibration) parameters are necessary. Comparison with laboratory measurements demonstrates that the proposed model can accurately predict wave height decay and mean water level setup, for both regular and solitary wave breaking on a sloping beach. The model is also applied to reproduce two-dimensional wave transformation and breaking over a submerged circular shoal, showing good agreement with experimental data.
+
+
+%0 Journal Article
+%T Numerical treatment of wave breaking on unstructured finite volume approximations for extended Boussinesq-type equations
+%A Kazolea, M.
+%A Delis, A. I.
+%A Synolakis, C. E.
+%J Journal of Computational Physics
+%V 271
+%N 9
+%P 281-305
+%D 2014
+%K Boussinesq-type equations;Wave breaking;Finite volumes;Unstructured meshes
+%X A new methodology is presented to handle wave breaking over complex bathymetries in extended two-dimensional Boussinesq-type (BT) models which are solved by an unstructured well-balanced finite volume (FV) scheme. The numerical model solves the 2D extended BT equations proposed by Nwogu (1993), recast in conservation law form with a hyperbolic flux identical to that of the Non-linear Shallow Water (NSW) equations. Certain criteria, along with their proper implementation, are established to characterize breaking waves. Once breaking waves are recognized, we switch locally in the computational domain from the BT to NSW equations by suppressing the dispersive terms in the vicinity of the wave fronts. Thus, the shock-capturing features of the FV scheme enable an intrinsic representation of the breaking waves, which are handled as shocks by the NSW equations. An additional methodology is presented on how to perform a stable switching between the BT and NSW equations within the unstructured FV framework. Extensive validations are presented, demonstrating the performance of the proposed wave breaking treatment, along with some comparisons with other well-established wave breaking mechanisms that have been proposed for BT models.
+
+
+%0 Journal Article
+%T Boussinesq modeling of longshore currents
+%A Chen, Qin
+%A Kirby, James T.
+%A Dalrymple, Robert A.
+%A Shi, Fengyan
+%A Thornton, Edward B.
+%J Journal of Geophysical Research Oceans
+%V 108
+%N C11
+%P 156-157
+%D 2003
+%K longshore currents;;Boussinesq modeling;;nearshore circulation;;surf zone currents;;wave breaking;;irregular waves
+%X [1] A time domain Boussinesq model for nearshore hydrodynamics is improved to obtain the conservation of vertical vorticity correct to second order and extended for use on an open coast using longshore periodic boundary conditions. The model is utilized to simulate surface waves and longshore currents under laboratory and field conditions. Satisfactory agreement is found between numerical results and measurements, including root mean square wave height, mean water level, and longshore current. One striking result of the simulations is the prediction of the strong longshore current in the trough shoreward of the bar as observed during the Duck Experiment on Low-frequency and Incident-band Longshore and Across-shore Hydrodynamics field campaign. The model results give insight into the spatial and temporal variability of wave-driven longshore currents and the associated vertical vorticity field under the phase-resolving, random wave forcing with wave/current interaction. Numerical experiments are carried out to examine the response of the modeled longshore currents to the randomness of surface waves and the cross-shore distributions of bed shear stress coefficient. We find that both regular and irregular waves lead to very similar mean longshore currents, while the input of monochromatic, unidirectional waves results in much more energetic shear waves than does the input of random waves. The model results favor Whitford and Thornton 's [1996]  finding that the bed shear stress coefficient for the area offshore the bar is larger than that in the trough, as better agreement with the field data for both regular and irregular waves is found if such coefficients are used in the Boussinesq model.
+
+
